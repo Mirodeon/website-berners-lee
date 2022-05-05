@@ -58,6 +58,7 @@ p {
 li, li a {
     margin: 5%;
     text-decoration: none;
+    color: lightgrey;
 }
 
 li:hover,
