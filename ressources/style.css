@@ -5,6 +5,7 @@ section {
     box-shadow: 0px 2px 3px 2px lightgray;
     color: grey;
     font-family: 'Open Sans', sans-serif;
+    padding: 0px 20px;
 }
 
 .intro img {
@@ -13,7 +14,83 @@ section {
     width: 150px;
 }
 
-.intro, .social {
+.intro {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.intro h1 {
+    color: rgba(225, 85, 85, 255);
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.intro a, .intro a:visited {
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgba(225, 85, 85, 255);
+    padding: 1.5%;
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    padding: 3%;
+    box-shadow: 10px 10px 10px rgba(130, 5, 5, 0.5);
+}
+
+p {
+    text-align: justify;
+}
+
+.social ul, li:visited, li a:visited {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    list-style: none;
+    color: lightgrey;
+    padding: 50px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li, li a {
+    margin: 5%;
+    text-decoration: none;
+}
+
+li:hover,
+li a:hover {
+  color: rgb(0, 100, 150);
+  text-decoration: none;
+  filter: drop-shadow(0 0 5px rgb(0, 135, 255));
+  -webkit-filter: drop-shadow(0 0 5px rgb(0, 135, 255));
+}
+
+.grey {
+    background-color: rgba(110, 107, 107, 0.29);
+}
+
+.movie h2 {
     text-align: center;
 }
 
+article {
+    display: flex;
+}
+
+.movie img {
+    width: 75px;
+    margin: 25px 20px;
+}
+
+.movie h1 {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.movie p {
+    text-align: justify;
+    margin: 0 auto;
+}
