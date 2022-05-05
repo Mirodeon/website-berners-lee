@@ -1,6 +1,6 @@
 section {
     background-color: white;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     box-shadow: 0px 2px 3px 2px lightgray;
     color: grey;
@@ -82,7 +82,7 @@ article {
 }
 
 .movie img {
-    width: 75px;
+    max-width: 75px;
     margin: 25px 20px;
 }
 
